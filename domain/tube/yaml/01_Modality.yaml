@@ -1,0 +1,8 @@
+# Specific information about the Domain mapping
+# 3D Manifestation Parameters:
+#  type: nominal default; geographic requires fx and fy columns
+#  modality: explicit - assumes specific relationship mapping file, implicit - relationships in full files
+type: geographic
+modality: explicit
+#  scale: size of the overall space for computation purposes, particularly geographic projection
+scale: 1000

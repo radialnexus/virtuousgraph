@@ -1,0 +1,4 @@
+﻿Aspect,File,Column,Type,Node,ID,Attribute,Property,Labels,Constraint,Index,Conditional,Condition,Transformer,Transforms,Source Node,Source X,Source ID,Relationship,Target Node,Target X,Target ID,Exception ID,Exception Property,Exception Column,Relationship Property,Relationship Column,Relationship X,Relationship ID
+nodes,london_transport_datasets_London_stations_edited,Station,toString,Station,Station,id,id,,,,,,copy,Station,,,,,,,,,,,,,,
+nodes,london_transport_datasets_London_stations_edited,Station,toString,Station,Station,name,name,,,,,,copy,Station,,,,,,,,,,,,,,
+edges,london_transport_datasets_London_tube_lines,Tube_Line,toString,Tube_Line,Tube_Line,id,id,,,,,,copy,Tube_Line,Station,copy,From_Station,Tube_Line,Station,copy,To_Station,,,,name,Tube_Line,,

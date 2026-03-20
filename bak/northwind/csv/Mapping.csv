@@ -1,0 +1,6 @@
+﻿Aspect,File,Column,Type,Format,Node,ID,Attribute,Property,Labels,Constraint,Index,Conditional,Condition,Transformer,Transforms,Source Node,Source X,Source ID,Relationship,Target Node,Target X,Target ID,Exception ID,Exception Property,Exception Column,Relationship Property,Relationship Column,Relationship X,Relationship ID
+both,categories,categoryName,toString,,Category,categoryName,id,id,,,,,,copy,categoryName,,,,,,,,,,,,,,
+both,categories,categoryName,toString,,Category,categoryName,name,name,,,,,,copy,categoryName,,,,,,,,,,,,,,
+both,categories,description,toString,,Category,categoryName,desc,description,,,,,,copy,description,,,,,,,,,,,,,,
+both,products,productName,toString,,Product,productName,id,id,,,,,,copy,productName,Product,,productName,IS_A,Category,,categoryName,,,,,,,
+both,products,productName,toString,,Product,productName,name,name,,,,,,copy,productName,,,,,,,,,,,,,,

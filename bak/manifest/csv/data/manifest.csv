@@ -1,0 +1,31 @@
+﻿Script,Class,Parent,Attribute,Role,Description
+manifest,Esse,,printf,Print Formatted String with Keywords,Meta class for all classes
+manifest,Struct,Esse,init,pass,Meta Python convenience class
+manifest,Dict,Struct,printf,Print Formatted Dictionary,Dictionary convenience class
+manifest,DF,Struct,split,"Split Data Frame into a Dictionary of Data Frames based on a column, retaining sort order",Data Frame convenience class
+manifest,Series,Struct,printf,Print a Data Frame prefaced with name,Series convenience class
+manifest,File,Esse,init,"Initialize the File Attributes (path, base, pith)",File interrogation and extraction
+manifest,Directory,File,process,Process the Mapping across all files for the current Phase,Directory Class
+manifest,Script,File,generate,Append Cypher code to template file,Scripts generated for loading
+manifest,ListFile,File,generate,Write node and edge code ,List Files
+manifest,DictFile,File,generate,Use JSON library to dump a dictionary,Dictionary Files
+manifest,CSVFile,File,ingest,Use Pandas read_csv function to load CSV File,CSV File convenience class
+manifest,DataFile,CSVFile,init,Initialize Data File calls File Initialize,Data File classes
+manifest,MappingFile,CSVFile,init,Mapping File from which Mapping Data Frame is extracted,Mapping File from which Mapping Data Frame is extracted
+manifest,YAMLFile,File,ingest,Use yaml library to load generic YAML file,YAML File convenience class
+manifest,ModelFile,YAMLFile,init,Model File from which all Domain configuration parameters are defined.,Model File from which all Domain configuration parameters are defined.
+manifest,ManifestFile,YAMLFile,init,Mapping File from which Mapping Data Frame is extracted,Manifest File from which all configuration parameters are defined.
+manifest,ModalityFile,YAMLFile,init,Modality File from which processing is defined,Modality File from which processing is defined
+manifest,Transformer,Esse,init,Transformer for Domain (Cypher or NeoModel),Transformer for Domain (Cypher or NeoModel)
+manifest,NeoModel,Transformer,init,NeoModel Transformer Class,NeoModel Transformer Class
+manifest,Force,Transformer,init,3D-Force Graph Transformer Class,3D-Force Graph Transformer Class
+manifest,Cypher,Transformer,script,Cypher file to generate graph,Cypher Transformer Class
+manifest,Resource,Esse,init,Instantiate Platform or Graph ,Resource for Domain (Graph or Platform)
+manifest,Platform,Resource,generate,Generate Platform,Platform Meta Class
+manifest,Graph,Resource,transform,"Transform given Aspect of the Mapping (Nodes, Edges)",Graph Meta Class
+manifest,Domain,Esse,transformer_class,Class of Transformer (Graph or Platform),Domain Generating Graph
+manifest,Mapping,Esse,mapping,"Mapping Columns to Nodes, Properties, and Relationships",Mapping defines how mapping is processed
+manifest,Model,Esse,yo,"YAML Object (Text, Colors for Nodes, Edges)",Model defines how nodes and edges are interpreted
+manifest,Modality,Esse,modality_file,Files explicit (separate nodes and relationships) or implicit (both),Modality specifies whether processing is implicit or explicit (has separate nodes and edges files)
+manifest,Manifest,Esse,directory_path,Main directory path for the Domain,Manifest defines entire manifestation of domain
+manifest,Manifestation,Esse,domain_name,Name of the domain,Manifestation class

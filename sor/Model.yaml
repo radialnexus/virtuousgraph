@@ -1,0 +1,48 @@
+# General information about the Domain
+name: manifest
+title: Manifest
+headline: Manifest
+description: Manifest
+nodes:
+    # different nodes can have different presentation modes in 3D
+    # projection: flat, spherical (default), hemispherical
+    # distribution: tight, loose
+    Class:
+        # Red
+        color: "#EC3113"
+        size: 5
+    Attribute:
+        # Purple
+        color: "#8800CE"
+        size:    3
+        # projection: flat
+        # distribution: tight
+    # Blue:
+    #     # Blue
+    #     color: "#3F8BFA"
+    #     size: 5
+    #     projection: hemispherical
+    # Purple:
+    #     # Purple
+    #     color: "#8800CE"
+    #     size: 4
+    # MediumGrey:
+    #     # Medium Grey
+    #     color: "#B9B9B9"
+    #     size: 1
+    # LightGrey:
+    #     # Light Grey
+    #     color: "#3C3C3C"
+    #     size: 1
+edges: 
+    # file: london_transport_datasets_London_tube_lines
+    color: '#CCCCCC'
+    strength: 5
+# mapping:
+#     Source Node: Station
+#     Target Node: Station
+#     Relationship: Tube_Line
+#     Source ID: From_Station
+#     Target ID: To_Station
+#     Transformer: copy
+#     Transforms: Tube_Line

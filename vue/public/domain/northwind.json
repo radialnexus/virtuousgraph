@@ -1,0 +1,1063 @@
+{
+    "nodes": [
+        {
+            "id": "Beverages",
+            "name": "Beverages",
+            "desc": "Soft drinks, coffees, teas, beers, and ales",
+            "color": "#EC3113",
+            "size": 5
+        },
+        {
+            "id": "Condiments",
+            "name": "Condiments",
+            "desc": "Sweet and savory sauces, relishes, spreads, and seasonings",
+            "color": "#EC3113",
+            "size": 5
+        },
+        {
+            "id": "Confections",
+            "name": "Confections",
+            "desc": "Desserts, candies, and sweet breads",
+            "color": "#EC3113",
+            "size": 5
+        },
+        {
+            "id": "Dairy Products",
+            "name": "Dairy Products",
+            "desc": "Cheeses",
+            "color": "#EC3113",
+            "size": 5
+        },
+        {
+            "id": "Grains/Cereals",
+            "name": "Grains/Cereals",
+            "desc": "Breads, crackers, pasta, and cereal",
+            "color": "#EC3113",
+            "size": 5
+        },
+        {
+            "id": "Meat/Poultry",
+            "name": "Meat/Poultry",
+            "desc": "Prepared meats",
+            "color": "#EC3113",
+            "size": 5
+        },
+        {
+            "id": "Produce",
+            "name": "Produce",
+            "desc": "Dried fruit and bean curd",
+            "color": "#EC3113",
+            "size": 5
+        },
+        {
+            "id": "Seafood",
+            "name": "Seafood",
+            "desc": "Seaweed and fish",
+            "color": "#EC3113",
+            "size": 5
+        },
+        {
+            "id": "Chai",
+            "name": "Chai",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Chang",
+            "name": "Chang",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Aniseed Syrup",
+            "name": "Aniseed Syrup",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Chef Anton's Cajun Seasoning",
+            "name": "Chef Anton's Cajun Seasoning",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Chef Anton's Gumbo Mix",
+            "name": "Chef Anton's Gumbo Mix",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Grandma's Boysenberry Spread",
+            "name": "Grandma's Boysenberry Spread",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Uncle Bob's Organic Dried Pears",
+            "name": "Uncle Bob's Organic Dried Pears",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Northwoods Cranberry Sauce",
+            "name": "Northwoods Cranberry Sauce",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Mishi Kobe Niku",
+            "name": "Mishi Kobe Niku",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Ikura",
+            "name": "Ikura",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Queso Cabrales",
+            "name": "Queso Cabrales",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Queso Manchego La Pastora",
+            "name": "Queso Manchego La Pastora",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Konbu",
+            "name": "Konbu",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Tofu",
+            "name": "Tofu",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Genen Shouyu",
+            "name": "Genen Shouyu",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Pavlova",
+            "name": "Pavlova",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Alice Mutton",
+            "name": "Alice Mutton",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Carnarvon Tigers",
+            "name": "Carnarvon Tigers",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Teatime Chocolate Biscuits",
+            "name": "Teatime Chocolate Biscuits",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Sir Rodney's Marmalade",
+            "name": "Sir Rodney's Marmalade",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Sir Rodney's Scones",
+            "name": "Sir Rodney's Scones",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Gustaf's Kn\u00e4ckebr\u00f6d",
+            "name": "Gustaf's Kn\u00e4ckebr\u00f6d",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Tunnbr\u00f6d",
+            "name": "Tunnbr\u00f6d",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Guaran\u00e1 Fant\u00e1stica",
+            "name": "Guaran\u00e1 Fant\u00e1stica",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "NuNuCa Nu\u00df-Nougat-Creme",
+            "name": "NuNuCa Nu\u00df-Nougat-Creme",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Gumb\u00e4r Gummib\u00e4rchen",
+            "name": "Gumb\u00e4r Gummib\u00e4rchen",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Schoggi Schokolade",
+            "name": "Schoggi Schokolade",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "R\u00f6ssle Sauerkraut",
+            "name": "R\u00f6ssle Sauerkraut",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Th\u00fcringer Rostbratwurst",
+            "name": "Th\u00fcringer Rostbratwurst",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Nord-Ost Matjeshering",
+            "name": "Nord-Ost Matjeshering",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Gorgonzola Telino",
+            "name": "Gorgonzola Telino",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Mascarpone Fabioli",
+            "name": "Mascarpone Fabioli",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Geitost",
+            "name": "Geitost",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Sasquatch Ale",
+            "name": "Sasquatch Ale",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Steeleye Stout",
+            "name": "Steeleye Stout",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Inlagd Sill",
+            "name": "Inlagd Sill",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Gravad lax",
+            "name": "Gravad lax",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "C\u00f4te de Blaye",
+            "name": "C\u00f4te de Blaye",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Chartreuse verte",
+            "name": "Chartreuse verte",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Boston Crab Meat",
+            "name": "Boston Crab Meat",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Jack's New England Clam Chowder",
+            "name": "Jack's New England Clam Chowder",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Singaporean Hokkien Fried Mee",
+            "name": "Singaporean Hokkien Fried Mee",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Ipoh Coffee",
+            "name": "Ipoh Coffee",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Gula Malacca",
+            "name": "Gula Malacca",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Rogede sild",
+            "name": "Rogede sild",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Spegesild",
+            "name": "Spegesild",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Zaanse koeken",
+            "name": "Zaanse koeken",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Chocolade",
+            "name": "Chocolade",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Maxilaku",
+            "name": "Maxilaku",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Valkoinen suklaa",
+            "name": "Valkoinen suklaa",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Manjimup Dried Apples",
+            "name": "Manjimup Dried Apples",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Filo Mix",
+            "name": "Filo Mix",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Perth Pasties",
+            "name": "Perth Pasties",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Tourti\u00e8re",
+            "name": "Tourti\u00e8re",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "P\u00e2t\u00e9 chinois",
+            "name": "P\u00e2t\u00e9 chinois",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Gnocchi di nonna Alice",
+            "name": "Gnocchi di nonna Alice",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Ravioli Angelo",
+            "name": "Ravioli Angelo",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Escargots de Bourgogne",
+            "name": "Escargots de Bourgogne",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Raclette Courdavault",
+            "name": "Raclette Courdavault",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Camembert Pierrot",
+            "name": "Camembert Pierrot",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Sirop d'\u00e9rable",
+            "name": "Sirop d'\u00e9rable",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Tarte au sucre",
+            "name": "Tarte au sucre",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Vegie-spread",
+            "name": "Vegie-spread",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Wimmers gute Semmelkn\u00f6del",
+            "name": "Wimmers gute Semmelkn\u00f6del",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Louisiana Fiery Hot Pepper Sauce",
+            "name": "Louisiana Fiery Hot Pepper Sauce",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Louisiana Hot Spiced Okra",
+            "name": "Louisiana Hot Spiced Okra",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Laughing Lumberjack Lager",
+            "name": "Laughing Lumberjack Lager",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Scottish Longbreads",
+            "name": "Scottish Longbreads",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Gudbrandsdalsost",
+            "name": "Gudbrandsdalsost",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Outback Lager",
+            "name": "Outback Lager",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Flotemysost",
+            "name": "Flotemysost",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Mozzarella di Giovanni",
+            "name": "Mozzarella di Giovanni",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "R\u00f6d Kaviar",
+            "name": "R\u00f6d Kaviar",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Longlife Tofu",
+            "name": "Longlife Tofu",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Rh\u00f6nbr\u00e4u Klosterbier",
+            "name": "Rh\u00f6nbr\u00e4u Klosterbier",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Lakkalik\u00f6\u00f6ri",
+            "name": "Lakkalik\u00f6\u00f6ri",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Original Frankfurter gr\u00fcne So\u00dfe",
+            "name": "Original Frankfurter gr\u00fcne So\u00dfe",
+            "color": "#8800CE",
+            "size": 3
+        }
+    ],
+    "links": [
+        {
+            "name": "IS_A",
+            "source": "Chai",
+            "target": "Beverages",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Chang",
+            "target": "Beverages",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Aniseed Syrup",
+            "target": "Condiments",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Chef Anton's Cajun Seasoning",
+            "target": "Condiments",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Chef Anton's Gumbo Mix",
+            "target": "Condiments",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Grandma's Boysenberry Spread",
+            "target": "Condiments",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Uncle Bob's Organic Dried Pears",
+            "target": "Produce",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Northwoods Cranberry Sauce",
+            "target": "Condiments",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Mishi Kobe Niku",
+            "target": "Meat/Poultry",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Ikura",
+            "target": "Seafood",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Queso Cabrales",
+            "target": "Dairy Products",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Queso Manchego La Pastora",
+            "target": "Dairy Products",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Konbu",
+            "target": "Seafood",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Tofu",
+            "target": "Produce",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Genen Shouyu",
+            "target": "Condiments",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Pavlova",
+            "target": "Confections",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Alice Mutton",
+            "target": "Meat/Poultry",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Carnarvon Tigers",
+            "target": "Seafood",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Teatime Chocolate Biscuits",
+            "target": "Confections",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Sir Rodney's Marmalade",
+            "target": "Confections",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Sir Rodney's Scones",
+            "target": "Confections",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Gustaf's Kn\u00e4ckebr\u00f6d",
+            "target": "Grains/Cereals",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Tunnbr\u00f6d",
+            "target": "Grains/Cereals",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Guaran\u00e1 Fant\u00e1stica",
+            "target": "Beverages",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "NuNuCa Nu\u00df-Nougat-Creme",
+            "target": "Confections",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Gumb\u00e4r Gummib\u00e4rchen",
+            "target": "Confections",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Schoggi Schokolade",
+            "target": "Confections",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "R\u00f6ssle Sauerkraut",
+            "target": "Produce",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Th\u00fcringer Rostbratwurst",
+            "target": "Meat/Poultry",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Nord-Ost Matjeshering",
+            "target": "Seafood",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Gorgonzola Telino",
+            "target": "Dairy Products",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Mascarpone Fabioli",
+            "target": "Dairy Products",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Geitost",
+            "target": "Dairy Products",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Sasquatch Ale",
+            "target": "Beverages",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Steeleye Stout",
+            "target": "Beverages",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Inlagd Sill",
+            "target": "Seafood",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Gravad lax",
+            "target": "Seafood",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "C\u00f4te de Blaye",
+            "target": "Beverages",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Chartreuse verte",
+            "target": "Beverages",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Boston Crab Meat",
+            "target": "Seafood",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Jack's New England Clam Chowder",
+            "target": "Seafood",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Singaporean Hokkien Fried Mee",
+            "target": "Grains/Cereals",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Ipoh Coffee",
+            "target": "Beverages",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Gula Malacca",
+            "target": "Condiments",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Rogede sild",
+            "target": "Seafood",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Spegesild",
+            "target": "Seafood",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Zaanse koeken",
+            "target": "Confections",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Chocolade",
+            "target": "Confections",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Maxilaku",
+            "target": "Confections",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Valkoinen suklaa",
+            "target": "Confections",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Manjimup Dried Apples",
+            "target": "Produce",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Filo Mix",
+            "target": "Grains/Cereals",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Perth Pasties",
+            "target": "Meat/Poultry",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Tourti\u00e8re",
+            "target": "Meat/Poultry",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "P\u00e2t\u00e9 chinois",
+            "target": "Meat/Poultry",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Gnocchi di nonna Alice",
+            "target": "Grains/Cereals",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Ravioli Angelo",
+            "target": "Grains/Cereals",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Escargots de Bourgogne",
+            "target": "Seafood",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Raclette Courdavault",
+            "target": "Dairy Products",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Camembert Pierrot",
+            "target": "Dairy Products",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Sirop d'\u00e9rable",
+            "target": "Condiments",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Tarte au sucre",
+            "target": "Confections",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Vegie-spread",
+            "target": "Condiments",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Wimmers gute Semmelkn\u00f6del",
+            "target": "Grains/Cereals",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Louisiana Fiery Hot Pepper Sauce",
+            "target": "Condiments",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Louisiana Hot Spiced Okra",
+            "target": "Condiments",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Laughing Lumberjack Lager",
+            "target": "Beverages",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Scottish Longbreads",
+            "target": "Confections",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Gudbrandsdalsost",
+            "target": "Dairy Products",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Outback Lager",
+            "target": "Beverages",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Flotemysost",
+            "target": "Dairy Products",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Mozzarella di Giovanni",
+            "target": "Dairy Products",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "R\u00f6d Kaviar",
+            "target": "Seafood",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Longlife Tofu",
+            "target": "Produce",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Rh\u00f6nbr\u00e4u Klosterbier",
+            "target": "Beverages",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Lakkalik\u00f6\u00f6ri",
+            "target": "Beverages",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Original Frankfurter gr\u00fcne So\u00dfe",
+            "target": "Condiments",
+            "color": "CCCCCC",
+            "strength": "5"
+        }
+    ]
+}

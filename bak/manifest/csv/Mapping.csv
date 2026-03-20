@@ -1,0 +1,7 @@
+﻿Aspect,File,Column,Type,Format,Node,ID,Attribute,Property,Labels,Constraint,Index,Conditional,Condition,Transformer,Transforms,Source Node,Source X,Source ID,Relationship,Target Node,Target X,Target ID,Exception ID,Exception Property,Exception Column,Relationship Property,Relationship Column,Relationship X,Relationship ID
+both,manifest,Class,toString,,Class,Class,id,id,,,,,,copy,Class,Class,,Class,IS_A,Class,,Parent,,,,,,,
+both,manifest,Class,toString,,Class,Class,name,name,,,,,,copy,Parent,,,,,,,,,,,,,,
+both,manifest,Description,toString,,Class,Class,description,description,,,,,,copy,Description,,,,,,,,,,,,,,
+both,manifest,Attribute,toString,,Attribute,Attribute,id,id,,,,,,copy,Attribute,Attribute,,Attribute,PART_OF,Class,,Class,,,,,,,
+both,manifest,Attribute,toString,,Attribute,Attribute,name,name,,,,,,copy,Attribute,,,,,,,,,,,,,,
+both,manifest,Role,toString,,Attribute,Attribute,description,description,,,,,,copy,Role,,,,,,,,,,,,,,

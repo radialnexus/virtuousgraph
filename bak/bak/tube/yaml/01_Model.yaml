@@ -1,0 +1,45 @@
+# General information about the Domain
+name: Tube
+title: Tube
+headline: Tube
+description: Tube
+nodes:
+    # different nodes can have different presentation modes in 3D
+    # projection: flat, spherical (default), hemispherical
+    # distribution: tight, loose
+    Station:
+        # Red
+        color: "#EC3113"
+        size: 4
+        # projection: flat
+    # Green:
+    #     # Greeen
+    #     color: "#5DB275"
+    #     size:    5
+    # Blue:
+    #     # Blue
+    #     color: "#3F8BFA"
+    #     size: 5
+    # Purple:
+    #     # Purple
+    #     color: "#8800CE"
+    #     size: 4
+    # MediumGrey:
+    #     # Medium Grey
+    #     color: "#B9B9B9"
+    #     size: 1
+    # LightGrey:
+    #     # Light Grey
+    #     color: "#3C3C3C"
+    #     size: 1
+edges: 
+    color: '#CCCCCC'
+    strength: 5
+mapping:
+    Source Node: Station
+    Target Node: Station
+    Relationship: Tube_Line
+    Source ID: From_Station
+    Target ID: To_Station
+    Transformer: copy
+    Transforms: Tube_Line 

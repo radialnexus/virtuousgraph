@@ -1,0 +1,727 @@
+{
+    "nodes": [
+        {
+            "id": "Esse",
+            "name": "Esse",
+            "description": "Meta class for all classes",
+            "color": "#EC3113",
+            "size": 5
+        },
+        {
+            "id": "printf",
+            "name": "printf",
+            "description": "Print Formatted String with Keywords",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Struct",
+            "name": "Struct",
+            "description": "Meta Python convenience class",
+            "color": "#EC3113",
+            "size": 5
+        },
+        {
+            "id": "init",
+            "name": "init",
+            "description": "pass",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Dict",
+            "name": "Dict",
+            "description": "Dictionary convenience class",
+            "color": "#EC3113",
+            "size": 5
+        },
+        {
+            "id": "DF",
+            "name": "DF",
+            "description": "Data Frame convenience class",
+            "color": "#EC3113",
+            "size": 5
+        },
+        {
+            "id": "split",
+            "name": "split",
+            "description": "Split Data Frame into a Dictionary of Data Frames based on a column, retaining sort order",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Series",
+            "name": "Series",
+            "description": "Series convenience class",
+            "color": "#EC3113",
+            "size": 5
+        },
+        {
+            "id": "File",
+            "name": "File",
+            "description": "File interrogation and extraction",
+            "color": "#EC3113",
+            "size": 5
+        },
+        {
+            "id": "Directory",
+            "name": "Directory",
+            "description": "Directory Class",
+            "color": "#EC3113",
+            "size": 5
+        },
+        {
+            "id": "process",
+            "name": "process",
+            "description": "Process the Mapping across all files for the current Phase",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Script",
+            "name": "Script",
+            "description": "Scripts generated for loading",
+            "color": "#EC3113",
+            "size": 5
+        },
+        {
+            "id": "generate",
+            "name": "generate",
+            "description": "Append Cypher code to template file",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "ListFile",
+            "name": "ListFile",
+            "description": "List Files",
+            "color": "#EC3113",
+            "size": 5
+        },
+        {
+            "id": "DictFile",
+            "name": "DictFile",
+            "description": "Dictionary Files",
+            "color": "#EC3113",
+            "size": 5
+        },
+        {
+            "id": "CSVFile",
+            "name": "CSVFile",
+            "description": "CSV File convenience class",
+            "color": "#EC3113",
+            "size": 5
+        },
+        {
+            "id": "ingest",
+            "name": "ingest",
+            "description": "Use Pandas read_csv function to load CSV File",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "DataFile",
+            "name": "DataFile",
+            "description": "Data File classes",
+            "color": "#EC3113",
+            "size": 5
+        },
+        {
+            "id": "MappingFile",
+            "name": "MappingFile",
+            "description": "Mapping File from which Mapping Data Frame is extracted",
+            "color": "#EC3113",
+            "size": 5
+        },
+        {
+            "id": "YAMLFile",
+            "name": "YAMLFile",
+            "description": "YAML File convenience class",
+            "color": "#EC3113",
+            "size": 5
+        },
+        {
+            "id": "ModelFile",
+            "name": "ModelFile",
+            "description": "Model File from which all Domain configuration parameters are defined.",
+            "color": "#EC3113",
+            "size": 5
+        },
+        {
+            "id": "ManifestFile",
+            "name": "ManifestFile",
+            "description": "Manifest File from which all configuration parameters are defined.",
+            "color": "#EC3113",
+            "size": 5
+        },
+        {
+            "id": "ModalityFile",
+            "name": "ModalityFile",
+            "description": "Modality File from which processing is defined",
+            "color": "#EC3113",
+            "size": 5
+        },
+        {
+            "id": "Transformer",
+            "name": "Transformer",
+            "description": "Transformer for Domain (Cypher or NeoModel)",
+            "color": "#EC3113",
+            "size": 5
+        },
+        {
+            "id": "NeoModel",
+            "name": "NeoModel",
+            "description": "NeoModel Transformer Class",
+            "color": "#EC3113",
+            "size": 5
+        },
+        {
+            "id": "Force",
+            "name": "Force",
+            "description": "3D-Force Graph Transformer Class",
+            "color": "#EC3113",
+            "size": 5
+        },
+        {
+            "id": "Cypher",
+            "name": "Cypher",
+            "description": "Cypher Transformer Class",
+            "color": "#EC3113",
+            "size": 5
+        },
+        {
+            "id": "script",
+            "name": "script",
+            "description": "Cypher file to generate graph",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Resource",
+            "name": "Resource",
+            "description": "Resource for Domain (Graph or Platform)",
+            "color": "#EC3113",
+            "size": 5
+        },
+        {
+            "id": "Platform",
+            "name": "Platform",
+            "description": "Platform Meta Class",
+            "color": "#EC3113",
+            "size": 5
+        },
+        {
+            "id": "Graph",
+            "name": "Graph",
+            "description": "Graph Meta Class",
+            "color": "#EC3113",
+            "size": 5
+        },
+        {
+            "id": "transform",
+            "name": "transform",
+            "description": "Transform given Aspect of the Mapping (Nodes, Edges)",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Domain",
+            "name": "Domain",
+            "description": "Domain Generating Graph",
+            "color": "#EC3113",
+            "size": 5
+        },
+        {
+            "id": "transformer_class",
+            "name": "transformer_class",
+            "description": "Class of Transformer (Graph or Platform)",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Mapping",
+            "name": "Mapping",
+            "description": "Mapping defines how mapping is processed",
+            "color": "#EC3113",
+            "size": 5
+        },
+        {
+            "id": "mapping",
+            "name": "mapping",
+            "description": "Mapping Columns to Nodes, Properties, and Relationships",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Model",
+            "name": "Model",
+            "description": "Model defines how nodes and edges are interpreted",
+            "color": "#EC3113",
+            "size": 5
+        },
+        {
+            "id": "yo",
+            "name": "yo",
+            "description": "YAML Object (Text, Colors for Nodes, Edges)",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Modality",
+            "name": "Modality",
+            "description": "Modality specifies whether processing is implicit or explicit (has separate nodes and edges files)",
+            "color": "#EC3113",
+            "size": 5
+        },
+        {
+            "id": "modality_file",
+            "name": "modality_file",
+            "description": "Files explicit (separate nodes and relationships) or implicit (both)",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Manifest",
+            "name": "Manifest",
+            "description": "Manifest defines entire manifestation of domain",
+            "color": "#EC3113",
+            "size": 5
+        },
+        {
+            "id": "directory_path",
+            "name": "directory_path",
+            "description": "Main directory path for the Domain",
+            "color": "#8800CE",
+            "size": 3
+        },
+        {
+            "id": "Manifestation",
+            "name": "Manifestation",
+            "description": "Manifestation class",
+            "color": "#EC3113",
+            "size": 5
+        },
+        {
+            "id": "domain_name",
+            "name": "domain_name",
+            "description": "Name of the domain",
+            "color": "#8800CE",
+            "size": 3
+        }
+    ],
+    "links": [
+        {
+            "name": "PART_OF",
+            "source": "printf",
+            "target": "Esse",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Struct",
+            "target": "Esse",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "PART_OF",
+            "source": "init",
+            "target": "Struct",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Dict",
+            "target": "Struct",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "PART_OF",
+            "source": "printf",
+            "target": "Dict",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "DF",
+            "target": "Struct",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "PART_OF",
+            "source": "split",
+            "target": "DF",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Series",
+            "target": "Struct",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "PART_OF",
+            "source": "printf",
+            "target": "Series",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "File",
+            "target": "Esse",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "PART_OF",
+            "source": "init",
+            "target": "File",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Directory",
+            "target": "File",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "PART_OF",
+            "source": "process",
+            "target": "Directory",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Script",
+            "target": "File",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "PART_OF",
+            "source": "generate",
+            "target": "Script",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "ListFile",
+            "target": "File",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "PART_OF",
+            "source": "generate",
+            "target": "ListFile",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "DictFile",
+            "target": "File",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "PART_OF",
+            "source": "generate",
+            "target": "DictFile",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "CSVFile",
+            "target": "File",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "PART_OF",
+            "source": "ingest",
+            "target": "CSVFile",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "DataFile",
+            "target": "CSVFile",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "PART_OF",
+            "source": "init",
+            "target": "DataFile",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "MappingFile",
+            "target": "CSVFile",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "PART_OF",
+            "source": "init",
+            "target": "MappingFile",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "YAMLFile",
+            "target": "File",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "PART_OF",
+            "source": "ingest",
+            "target": "YAMLFile",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "ModelFile",
+            "target": "YAMLFile",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "PART_OF",
+            "source": "init",
+            "target": "ModelFile",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "ManifestFile",
+            "target": "YAMLFile",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "PART_OF",
+            "source": "init",
+            "target": "ManifestFile",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "ModalityFile",
+            "target": "YAMLFile",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "PART_OF",
+            "source": "init",
+            "target": "ModalityFile",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Transformer",
+            "target": "Esse",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "PART_OF",
+            "source": "init",
+            "target": "Transformer",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "NeoModel",
+            "target": "Transformer",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "PART_OF",
+            "source": "init",
+            "target": "NeoModel",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Force",
+            "target": "Transformer",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "PART_OF",
+            "source": "init",
+            "target": "Force",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Cypher",
+            "target": "Transformer",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "PART_OF",
+            "source": "script",
+            "target": "Cypher",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Resource",
+            "target": "Esse",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "PART_OF",
+            "source": "init",
+            "target": "Resource",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Platform",
+            "target": "Resource",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "PART_OF",
+            "source": "generate",
+            "target": "Platform",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Graph",
+            "target": "Resource",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "PART_OF",
+            "source": "transform",
+            "target": "Graph",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Domain",
+            "target": "Esse",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "PART_OF",
+            "source": "transformer_class",
+            "target": "Domain",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Mapping",
+            "target": "Esse",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "PART_OF",
+            "source": "mapping",
+            "target": "Mapping",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Model",
+            "target": "Esse",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "PART_OF",
+            "source": "yo",
+            "target": "Model",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Modality",
+            "target": "Esse",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "PART_OF",
+            "source": "modality_file",
+            "target": "Modality",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Manifest",
+            "target": "Esse",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "PART_OF",
+            "source": "directory_path",
+            "target": "Manifest",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "IS_A",
+            "source": "Manifestation",
+            "target": "Esse",
+            "color": "CCCCCC",
+            "strength": "5"
+        },
+        {
+            "name": "PART_OF",
+            "source": "domain_name",
+            "target": "Manifestation",
+            "color": "CCCCCC",
+            "strength": "5"
+        }
+    ]
+}
