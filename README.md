@@ -1,4 +1,4 @@
-# RadialNEXUS
+# Virtuous Graph
 
 This is the code base for the "Virtuous Graph" initiative (virtuousgraph.com).  The Virtuous Graph motto is Graph as Code; Code as Graph.  The goal is to implement our vision of programming: taking a graph-centric approach to programming itself - to visualize the program as a graph and ultimately to modify a graph to modify a program.
 
