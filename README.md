@@ -1,149 +1,124 @@
 # Virtuous Graph
 
-This is the code base for the "Virtuous Graph" initiative (virtuousgraph.com).  The Virtuous Graph motto is Graph as Code; Code as Graph.  The goal is to implement our vision of programming: taking a graph-centric approach to programming itself - to visualize the program as a graph and ultimately to modify a graph to modify a program.
+**Graph as Code; Code as Graph.**
 
-To start, we want to make it easy as possible to transform data sets (in their ubiquitous CSV format) into various resources for interacting with those data sets.  The initial focus is on manifesting Graphs themselves in a variety of representations, specifically to start as either Neo4j Graph Database or interactive 3D graphs.
+Virtuous Graph takes a graph-centric approach to programming: visualize a program as a graph, modify the graph to modify the program. It transforms data sets in CSV format into interactive 3D graph visualizations and Neo4j graph databases through a declarative mapping and model system.
 
-These data sets can be anything from a set of RGB Color Codes to Exceptional Trees in Hawaii.  All of these CSV files originate from a "Domain of Discourse".  The Domain defines the subject matter; the Discourse your interaction with the subject.  To start, we instantiate a domain - take your CSV file and define two assets for transforming data into graph:
+## Quickstart
 
-Mapping
-Model
+Prerequisites: Python 3, Node.js, npm.
 
-The Mapping CSV file defines what values in the CSV file columns are mapped to what Nodes, Edges and associated Properties.  The Model YAML file defines a set of overall attributes relative to the Mappping, such as what color which Nodes should be presented in a 3D view of the graph, for example.
+```bash
+# Install Python dependencies
+pip install pandas numpy chardet pyyaml unidecode
 
-To manifest a graph from the data you need to instantiate your domain using your Domain Data Spreadsheet.  A sample data spreadsheet is provided in sor.
-Use domain.csv as an example.
+# Generate the 3D force graph for Hawaiian Trees
+cd py
+python3 manifest.py trees Graph Force Exceptional_Trees_On_Oahu
 
-pushd ~/radialnexus/py
-python3 instantiate.py manifest
-cp domain.csv manifest/csv/data
-mv domain.csv manifest.csv
-python3 manifest.py manifest Graph Force manifest
+# Copy the output to the Vue app
+cp ../domain/trees/json/trees.json ../vue/public/domain/
 
-Update domain.yaml
-	name: code
-	title: Code
-	headline: Code
-	description: Code
+# Install and run the Vue app
+cd ../vue
+npm install
+npm run serve
+```
 
-## Domain
+Open http://localhost:8080/trees to see exceptional trees on Oahu self-organize into the Hawaiian island chain through force-directed layout.
 
-Get your data spreadsheet.  
+## How It Works
 
+Every data set belongs to a **Domain of Discourse** -- the subject matter and your interaction with it. Each domain defines two assets:
 
-Usage:
+- **Mapping** (`csv/00_Mapping.csv`) -- maps CSV columns to graph Nodes, Edges, and Properties
+- **Model** (`yaml/00_Model.yaml`) -- defines presentation attributes like node colors, sizes, and spatial distribution
 
-	python3 manifest.py trees Graph Cypher Exceptional_Trees_On_Oahu
+The `manifest.py` script reads these definitions and transforms source data into a target representation through a **Transformer**. The transformer is specified as a class parameter, making the code structure mirror the graph structure -- classes correspond to graph concepts, inheritance defines the transformation hierarchy.
 
-Parameters: Here's an explanation of the parameters above
+```
+manifest.py <domain> <resource> <transformer> <source>
+```
 
-    trees:      the top-level directory containing the Domain of Discourse
-    Graph:      the desired Manifestation
-    Cypher:     the required Transformation
-    Source:     the current Source
+| Parameter | Description | Examples |
+|-----------|-------------|----------|
+| domain | Directory containing the Domain of Discourse | `trees`, `colors`, `tube` |
+| resource | The desired output resource | `Graph` |
+| transformer | The transformation method | `Force` (3D), `Cypher` (Neo4j) |
+| source | The source data file (without .csv) | `Exceptional_Trees_On_Oahu` |
 
-Structure:  Here's the overall structure
+## Project Structure
 
-    domains/
-        trees/
-		colors/
-		<domain>/
-			csv/
-			xls/
-	py/
-		manifest.py
-	vue/
-	yaml/
-	
-Extension:	Here's adding a new domain (journeys)
+```
+virtuousgraph/
+    domain/                 # Domains of Discourse
+        trees/              # Hawaiian exceptional trees
+            csv/            # Mapping and source data
+                data/       # CSV data files
+            json/           # Generated graph JSON
+            yaml/           # Model and modality definitions
+        colors/             # RGB color codes
+        tube/               # London Underground
+    py/                     # Core Python scripts
+        manifest.py         # Graph manifestation engine
+        instantiate.py      # Domain scaffolding tool
+        Cypher.py           # Neo4j Cypher template
+    vue/                    # Vue 3 frontend
+        src/
+            views/          # Graph view components
+        public/
+            domain/         # Graph JSON served to frontend
+    yaml/                   # Global manifest configuration
+```
 
-From installation directory (radialnexus):
+## Domains
 
-cd domain
-mkdir journeys; cd journeys
-mkdir xls; cd xls
-cp ../../colors/xls/00_Mapping.xls .;
-Edit Excel to define mapping 
-Make sure using Attribute for Force and Property for Graph
-Save in CSV format to (new) csv subdirectory (00_Mapping.csv)
-Create data/ in csv and add data file matching mapping
-Create yaml/ in journeys and create 00_Model.yaml (use trees as template)
-Make sure no tabs in the damn yaml file
-Make sure domain/json directory exists!
-THEN go over to vue directory
-copy domain.json over to vue/public/domain
-copy views/TreesGraph.vue to views/domainGraph.vue and edit
-	id
-	name
-	fetch
-edit main.js
-	import domainGraph.vue
-	routes
-	
-Install
-	npm
-	3D Graph
-	
+Three example domains are included:
 
-Initialization:
+| Domain | Data | What it shows |
+|--------|------|---------------|
+| trees | Exceptional Trees on Oahu | Geographic nodes self-organize into Hawaiian island clusters |
+| colors | RGB Color Codes | Color relationships in 3D space |
+| tube | London Underground | Transit network as a graph |
 
-Install a Desktop version of Neo4j.  Then add to your shell profile:
+## Adding a New Domain
 
-    export NEO4J_USERNAME=neo4j
-    export NEO4J_PASSWORD=<pwd>
-    export NEO4J_BOLT_URL="bolt://$NEO4J_USERNAME:$NEO4J_PASSWORD@localhost:7687"
-    export NEO4J_BASE_URL="bolt:/localhost:7687"
+1. Scaffold the directory structure:
+   ```bash
+   cd py
+   python3 instantiate.py <domain_name>
+   ```
 
-Structure:  Here's the directory structure the example currently assumes
+2. Add your CSV data to `domain/<name>/csv/data/`.
 
-    domains/
-        trees/
-            02_Mapping.csv
-            csv/
-                data/
-                info/
-            json/
-            py/
-	py/
-		manifest.py
-	vue/
-	xls/
-	yaml/
+3. Define the mapping in `domain/<name>/csv/00_Mapping.csv` (use `trees` as a template).
 
-From the py subdirectory parallel to domains, run the method as follows:
+4. Define the model in `domain/<name>/yaml/00_Model.yaml` (node colors, sizes, layout).
 
-    python3 manifest.py trees Graph Cypher Exceptional_Trees_On_Oahu
+5. Generate the graph:
+   ```bash
+   python3 manifest.py <name> Graph Force <source>
+   ```
 
-Then in the py subdirectory there will be 
+6. Copy the JSON output to the Vue app and add a view component and route (see [NOTES.md](NOTES.md) for detailed steps).
 
-    <domain>.py 
+## Neo4j (Optional)
 
-script generated.  Run that script:
+To generate Cypher scripts for loading into Neo4j:
 
-    python3 <domain>.py
+```bash
+python3 manifest.py trees Graph Cypher Exceptional_Trees_On_Oahu
+python3 domain/trees/py/trees.py
+```
 
-to load the graph.  Share and Enjoy.
+Requires Neo4j Desktop with connection environment variables configured. See [NOTES.md](NOTES.md) for setup.
 
-Intention: 
+## Vision
 
-The overall goal of the script is to take a mapping of a graph in simple format (currently a 
-spreadsheet, soon a graph itself) and manifest that mapping into a Graph.  It's envisaged that
-the script will be used to mapping many different domains.  A number of assumptions have been
-made about the directory structure as a result.  Under domains, will be the current Domain of
-Interest.  There will be a subdirectory within that will correspond to the first parameter.  
-From there, the script assumes the Mapping will be at the top of that subdirectory and will be
-of the form *Mapping.csv (use a versioning system that starts with 2 digits and an underscore).
-From there, the script assumes the actual data files will be in csv and are in a subdirectory
-so named within a data subdirectory therein.  
+The key differentiating point is the integration of the Graph into the Code and the view of Code as a Graph. Inheritance is used, with classes corresponding to graph parameters so that the specific Transformer can be specified and executed against. The graph is not just a data structure to be queried -- it is the program.
 
-The key differentiating point for the script is its integration of the Graph into the Code and
-its view of Code as a Graph.  Inheritance is used, with Classes corresponding to parameters so 
-that the specific Transformer can be specified and executed against.
+This prototype demonstrates the concept with data transformation. The larger vision is an **intelligent graph** where traversal triggers executable behavior: nodes carry code, edges define execution flow, and side effects during traversal connect the graph to external systems and data sources in real time.
 
-Notes:
+## License
 
-Manifest provides provenance and is optional.
-
-
-Copyright(c), 2023, Michael Bauer.  All Rights Reserved.
-
+Copyright (c) 2023, Michael Bauer. All Rights Reserved.
